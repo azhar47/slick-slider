@@ -1,0 +1,80 @@
+/* 
+     Created on :
+     Author : Azhar Hussain Masum
+     Email: azharhussain4647@gmail.com
+     Website:http://www.azharmasum.com
+     Facebook: https://www.facebook.com/azhar.hussainmasum
+*/
+.mg{
+    margin:0 0 10px 0;
+}
+/*<!--******************Single Item Slide***************-->*/
+.full-slide i.fa.fa-angle-left.slick-arrow {
+    /* right: 0; */
+    position: absolute;
+    left:15px;
+    top: 50%;
+    z-index: 1;
+    cursor: pointer;
+    color:grey;
+    font-size: 60px;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.full-slide i.fa.fa-angle-right.slick-arrow {
+    /* right: 0; */
+    position: absolute;
+    right:15px;
+    top: 50%;
+    z-index: 1;
+    cursor: pointer;
+    color:grey;
+    font-size: 60px;
+     transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.full-slide i.fa.fa-angle-right.slick-arrow:hover,
+.full-slide i.fa.fa-angle-left.slick-arrow:hover {
+    color: white;
+}
+/*<!--******************Single Item Slide***************-->*/
+
+.multiple-slide .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+.multiple-slide img{
+     transform: scale(0.9);
+     transition: 0.56s ease all;
+}
+.multiple-slide .slick-center img{
+    transform: scale(1.1);
+    
+}
+@media (max-width:799px){
+    .multiple-slide .slick-prev {
+        left: 0;
+    }
+    .multiple-slide .slick-next {
+        right: 0;
+    }
+}
+@media (max-width:580px){
+    .multiple-slide img{
+     transform: scale(1);
+     transition: 0.56s ease all;
+}
+    .multiple-slide .slick-prev {
+        left:0px;
+       
+    }
+    .multiple-slide .slick-next {
+        right:0px;
+    }
+}
+
